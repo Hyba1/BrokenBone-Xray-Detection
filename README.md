@@ -22,12 +22,24 @@ This project uses a deep learning model (ResNet50) to classify X-ray images as e
 
 ## Project Structure
 This is how the project is organized:
+
 BrokenBone-Xray-Detection/
-├── models/                # Trained model files (.pth)
-├── notebook/              # Final Colab notebook (.ipynb)
-├── utils/                 # Helper functions (prediction, etc.)
-├── README.md              # Project documentation (this file)
-└── requirements.txt       # Python dependencies
+│
+├── models/               # Trained model weights (.pth)
+│   └── resnet50_epoch15.pth
+│
+├── notebook/             # Colab or Jupyter notebook
+│   └── final_model.ipynb
+│
+├── utils/                # Python helper functions
+│   └── predict_image.py
+│
+├── examples/             # Example images for testing (optional)
+│   └── test1.png
+│
+├── requirements.txt      # Python dependencies
+├── README.md             # Project documentation
+```
 
 
 Feel free to fork, test, or extend this project!

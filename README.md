@@ -20,10 +20,7 @@ This project uses a deep learning model (ResNet50) to classify X-ray images as e
    predict_image("/content/MURA/MURA-v1.1/valid/XR_SHOULDER/patient123/study1_positive/image2.png", model, device)
 
 
-## Project Structure
-This is how the project is organized:
-
- ``` BrokenBone-Xray-Detection/ │ ├── models/ # Trained model weights (.pth) │ └── resnet50_epoch15.pth │ ├── notebook/ # Colab or Jupyter notebook │ └── final_model.ipynb │ ├── utils/ # Python helper functions │ └── predict_image.py │ ├── examples/ # Example images for testing (optional) │ └── test1.png │ ├── requirements.txt # Python dependencies └── README.md # Project documentation ``` </code></pre>
+<pre> ## Project Structure ``` BrokenBone-Xray-Detection/ ├── models/ # Trained model weights (.pth) │ └── resnet50_epoch15.pth │ ├── notebook/ # Colab or Jupyter notebook │ └── final_model.ipynb │ ├── utils/ # Python helper functions │ └── predict_image.py │ ├── examples/ # Example images for testing │ └── test1.png │ ├── requirements.txt # Python dependencies └── README.md # Project documentation ``` </pre>
 
 Feel free to fork, test, or extend this project!
 

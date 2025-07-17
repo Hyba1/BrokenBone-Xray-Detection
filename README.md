@@ -6,7 +6,6 @@ This project uses a deep learning model (ResNet50) to classify X-ray images as e
 
 - **Dataset:** MURA from Stanford AI
 - **Model:** ResNet50 with transfer learning (fine-tuned on MURA)
-- **Accuracy:** 93% (train), 78% (test)
 - **Tools:** PyTorch, Google Colab, Matplotlib, scikit-learn, PIL
 
 ## How to Use
@@ -20,7 +19,21 @@ This project uses a deep learning model (ResNet50) to classify X-ray images as e
    predict_image("/content/MURA/MURA-v1.1/valid/XR_SHOULDER/patient123/study1_positive/image2.png", model, device)
 
 
-<pre> ## Project Structure ``` BrokenBone-Xray-Detection/ ├── models/ # Trained model weights (.pth) │ └── resnet50_epoch15.pth │ ├── notebook/ # Colab or Jupyter notebook │ └── final_model.ipynb │ ├── utils/ # Python helper functions │ └── predict_image.py │ ├── examples/ # Example images for testing │ └── test1.png │ ├── requirements.txt # Python dependencies └── README.md # Project documentation ``` </pre>
+## Project Structure
+This is how the project is organized:
+## 📁 Project Structure
+
+- `models/` — Trained model weights (.pth)
+  - `resnet50_epoch15.pth`
+- `notebook/` — Final Colab or Jupyter notebook
+  - `final_model.ipynb`
+- `utils/` — Python helper functions
+  - `predict_image.py`
+- `examples/` — Example X-ray images for testing
+  - `test1.png`
+- `requirements.txt` — Python dependencies
+- `README.md` — Project documentation
+
 
 Feel free to fork, test, or extend this project!
 

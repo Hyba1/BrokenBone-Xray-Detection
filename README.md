@@ -29,8 +29,6 @@ This is how the project is organized:
   - `final_model.ipynb`
 - `utils/` — Python helper functions
   - `predict_image.py`
-- `examples/` — Example X-ray images for testing
-  - `test1.png`
 - `requirements.txt` — Python dependencies
 - `README.md` — Project documentation
 

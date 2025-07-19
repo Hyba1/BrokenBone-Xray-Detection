@@ -10,7 +10,7 @@ st.set_page_config(layout="centered", page_title="Bone Fracture Detector")
 def load_model():
     model = models.resnet50(pretrained=False)
     model.fc = torch.nn.Linear(model.fc.in_features, 2)
-    model.load_state_dict(torch.load("C:/Users/ASUS/Downloads/resnet50_epoch15.pth", map_location="cpu"))
+    model.load_state_dict(torch.load("./model/resnet50_epoch15.pth", map_location="cpu"))
     model.eval()
     return model
 
